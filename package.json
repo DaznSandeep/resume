@@ -10,8 +10,12 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^14.2.1",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^4.7.0",
+    "@vitejs/plugin-react-swc": "^3.11.0",
     "jest": "^27.0.6",
+    "typescript": "^5.8.3",
     "vite": "^4.0.0"
   },
   "scripts": {
