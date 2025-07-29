@@ -22,4 +22,4 @@ The app will be available at `http://localhost:5173` by default.
 - `.vscode/tasks.json` - VS Code tasks for running the app
 
 ---
-Feel free to start building your React application!
+Feel free to start building your React application! 
