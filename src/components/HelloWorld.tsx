@@ -1,7 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const HelloWorld = ({ name }) => {
+interface HelloWorldProps {
+  name: string;
+}
+
+const HelloWorld: React.FC<HelloWorldProps> = ({ name }) => {
   return <h1>Hello, {name}!</h1>;
 };
 
