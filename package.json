@@ -4,18 +4,20 @@
   "private": true,
   "dependencies": {
     "prop-types": "^15.8.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.1.2",
-    "jest": "^27.0.6"
+    "@testing-library/react": "^14.2.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "jest": "^27.0.6",
+    "vite": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "jest",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest"
   }
 }
